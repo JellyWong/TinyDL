@@ -1,0 +1,13 @@
+pos_dir = '../data/images/pos_person'
+neg_dir = '../data/images/neg_person'
+pos_fea_dir = '../data/features/pos' 
+neg_fea_dir = '../data/features/neg'
+min_wdw_sz = [64, 128]
+step_size = [10, 10]
+orientations = 9
+pixels_per_cell = [8, 8]
+cells_per_block = [2, 2]
+visualize = False
+normalize = True
+model_path = '../data/models'
+threshold = .3
